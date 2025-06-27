@@ -2,7 +2,7 @@
 
 ## 📌 What this script do
 
-This little powershell snipplet has the purpose to fast export all stacks in your Portainer installation fast and easily.
+This little powershell snipplet has the purpose to export all stacks in your Portainer installation fast and easily.
 Unlike the native Portainer backup, it preserve the original stack name.
 
 ---
@@ -20,6 +20,7 @@ The script require a small setup before use:
 }
 ```
 just care about to eventually escape `\` with `\\` or use `/` instead into the `BackupDir` path
+
 3. open a console and create a `portainer.cred` file 
 ```
 $passwordPlain = Read-Host "Use your password here"
